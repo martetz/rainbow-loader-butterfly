@@ -35,7 +35,6 @@
     width: 25px;
     height: 25px;
     top: 0;
-    box-shadow: 0px 0px 10px #4d2a2a;
 
     animation-duration: 2s;
     animation-timing-function: linear;
@@ -54,7 +53,7 @@
   }
 
   &::after{
-    left: 50%;
+    left: 52%;
     opacity: 0.8;
     border-top-left-radius: 0;
     border-bottom-right-radius: 10%;
@@ -66,19 +65,21 @@
 
 .loader__butterfly--top{
   transform: rotateZ(180deg);
+  margin-bottom: 1%;
   &::before{
-    left: 19%;
+    left: 18.1%;
     opacity: 0.8;
     width: 15px;
     height: 20px;
-    background: linear-gradient( yellow 40%,rgb(255, 115, 0) 70%, rgb(241, 52, 52) 90%);
+    background: linear-gradient( rgb(245, 245, 32) 5%, #ff7300 40%, #f84040 90%);
   }
 
   &::after{
-    background: linear-gradient(yellow 40%, rgb(255, 115, 0) 70%, rgb(248, 64, 64) 90%);
+    background: linear-gradient(rgb(245, 245, 32) 5%, #ff7300 40%, #f84040 90%);
     opacity: 0.8;
     width: 15px;
     height: 20px;
+    left: 50.1%;
   }
 
 }
